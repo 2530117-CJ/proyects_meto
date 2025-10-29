@@ -3,5 +3,33 @@ Un string es de manera sencilla una serie de caracteres.
 En python todo lo que se encuentre dentro de comillas simples (´´) o dobles (" ")
 sera considerado un string
 
-
 """
+
+name = "clase de programación"
+print(name)
+
+#title 
+print(name.title()) 
+"""
+    Un metodo es una accion que python puede realizar 
+en un fragmento de datos o sobre una variable
+
+    El punto despues de una variable seguido del metodo title () dice que
+se tiene que ejecutar el metodo title() de la variable name
+
+    Todos los metodos van seguidos de parentesis porque 
+en ocasiones necesitan informacion adiccional
+para funcionar, la cual iria dentro del parentesis. 
+En esta ocasion, el metodo .title() no requiere informacon
+adicional para funcionar
+"""
+print("metodo upper", name.upper())
+print("metodo lower", name.lower())
+
+# Concatenacion de STRINGS
+first_name = "Cecya"
+last_name = "jimenez juarez"
+full_name = first_name + " " + last_name
+
+print(full_name)
+print(full_name.title())
