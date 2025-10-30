@@ -33,3 +33,21 @@ full_name = first_name + " " + last_name
 
 print(full_name)
 print(full_name.title())
+
+#Whitespece
+"""
+Un whitespece se refiere a cualquier caracter que no se imprime,
+es decir, un espacio, tabuador, y finales de lineas. Tambien se utilizan 
+comunmente para organizar las salidas de tal manera que sea mas amigable 
+de leer o ver para el usuario
+
+Ejemplo:
+ -tabulador: \t
+ -salto de linea: \n
+
+"""
+
+print("Whitespace Tabulador")
+print("phyton")
+print("\tPhton")
+print("\t\tpython")
