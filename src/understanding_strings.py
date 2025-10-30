@@ -51,3 +51,21 @@ print("Whitespace Tabulador")
 print("phyton")
 print("\tPhton")
 print("\t\tpython")
+
+print("Whitespace salto de linea")
+print("languagues: \npython \n C \nJavaScript")
+
+#Eliminación de espacios en blanco
+programing_languages = " Python "
+
+print(programing_languages)
+print(programing_languages.rsplit())
+print(programing_languages.lstrip())
+print(programing_languages.strip())
+
+#Syntax Error con Strings
+""""
+menssage = "Una fortaleza de python es su comunidad"
+menssage = "Una fortaleza "de python" es su comunidad" - Error de syntax
+
+"""
