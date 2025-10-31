@@ -69,3 +69,20 @@ menssage = "Una fortaleza de python es su comunidad"
 menssage = "Una fortaleza "de python" es su comunidad" - Error de syntax
 
 """
+
+#f-strings
+
+famous_person= "Taylor Swift"
+message = f"{famous_person} una vez digo me voy al oxxo en avion"
+
+print(message)
+
+
+#Actividad 
+
+persona_famosa = "Albert Einstein"
+mensaje= "una vez dijo El verdadero signo de inteligencia no es el conocimiento sino la imaginación"
+
+print (persona_famosa + " " + mensaje )
+
+print(f"{persona_famosa} {mensaje}")
