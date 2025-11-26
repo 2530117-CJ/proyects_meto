@@ -78,7 +78,7 @@ message = f"{famous_person} una vez digo me voy al oxxo en avion"
 print(message)
 
 
-#Actividad 
+# Actividad 1
 
 persona_famosa = "Albert Einstein"
 mensaje= "una vez dijo El verdadero signo de inteligencia no es el conocimiento sino la imaginación"
@@ -86,3 +86,4 @@ mensaje= "una vez dijo El verdadero signo de inteligencia no es el conocimiento 
 print (persona_famosa + " " + mensaje )
 
 print(f"{persona_famosa} {mensaje}")
+
